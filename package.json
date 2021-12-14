@@ -1,0 +1,27 @@
+{
+  "name": "practicabootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSEANDRES14183/PracticaBootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSEANDRES14183/PracticaBootstrap/issues"
+  },
+  "homepage": "https://github.com/JOSEANDRES14183/PracticaBootstrap#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.45.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
