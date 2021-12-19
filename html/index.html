@@ -18,7 +18,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <a class="navbar-brand col-md-2" href="">
+          <a class="col-md-2" href="">
             <img class="w-25" src="../img/ies_manacor.petit2_400x400.jpg">
           </a>
           
@@ -65,53 +65,62 @@
     </header>
 
     <main>
-        <section id="container1">
 
-            <div id="col1">
-                <div class="sinopsis">
-                    <h1>¡Adéntrate en lo salvaje!</h1>
-                    <p>
-                        Cinco años después de la última entrega original para sobremesa, el futuro de la serie The Legend of Zelda llega a Nintendo Switch y Wii U replanteando por completo las bases de la saga. 
-                    </p>
-                    <button>COMPRAR AHORA</button>
-                </div>
-            </div>
-        
-            <div id="title">
+        <section  class="position-relative" id="container1">
+            <div class="position-absolute top-50 start-50 translate-middle d-none d-md-block text-center" id="title">
                 <h1>The Legend Of Zelda</h1>
                 <h2>Breath Of The Wild</h2>
             </div>
 
-            <div id="col2">
-                <div class="sinopsis">
-                    <h1>¡Adéntrate en lo salvaje!</h1>
-                    <p>
-                        Cinco años después de la última entrega original para sobremesa, el futuro de la serie The Legend of Zelda llega a Nintendo Switch y Wii U replanteando por completo las bases de la saga. 
-                    </p>
-                    <button>COMPRAR AHORA</button>
+            <div class="row">
+                <div class="d-none d-md-block col-md-6 bg-primary">
+                    <div class="sinopsis">
+                        <h1>¡Adéntrate en lo salvaje!</h1>
+                        <p>
+                            Cinco años después de la última entrega original para sobremesa, el futuro de la serie The Legend of Zelda llega a Nintendo Switch y Wii U replanteando por completo las bases de la saga. 
+                        </p>
+                        <button>COMPRAR AHORA</button>
+                    </div>
                 </div>
-            </div>
 
+
+                <div class="col-md-6 col-12 bg-secondary">
+                    <div class="d-md-none sinopsis">
+                        <h1>¡Adéntrate en lo salvaje!</h1>
+                        <p>
+                            Cinco años después de la última entrega original para sobremesa, el futuro de la serie The Legend of Zelda llega a Nintendo Switch y Wii U replanteando por completo las bases de la saga. 
+                        </p>
+                        <button>COMPRAR AHORA</button>
+                    </div>
+                </div>
+            
+            </div>
         </section>
 
         <section id="container2">
-            <div class="main-image">
-                <img src="../img/nahobino.png" alt="">
+
+            <div class="row">
+
+                <div class="col-md main-image">
+                    <img class="img-fluid" src="../img/nahobino.png" alt="">
+                </div>
+
+                <div class="col-md game-sinopsis">
+                    <div class="sinopsis">
+                        <img class="img-fluid" src="../img/smtlogo.png">
+                        <h4>¿Qué te deparará el destino en este mundo moribundo?</h3>
+                        <p>Hazte ya con esta secuela de la aclamada saga Shin Megami Tensei, que promete horas de juego y diversión.</p>
+                        <button>COMPRAR AHORA</button>
+                    </div>    
+                </div>
             </div>
 
-            <div class="game-sinopsis">
-                <div class="sinopsis">
-                    <img class="logo" src="../img/smtlogo.png">
-                    <h4>¿Qué te deparará el destino en este mundo moribundo?</h3>
-                    <p>Hazte ya con esta secuela de la aclamada saga Shin Megami Tensei, que promete horas de juego y diversión.</p>
-                    <button>COMPRAR AHORA</button>
-                </div>    
-            </div>
+
         </section>
 
         <section id="newProducts">
 
-            <div id="labelProducts">
+            <div class="row" id="labelProducts">
                 <div>
                     <h1>New products</h1>
                 </div>
@@ -120,13 +129,14 @@
                 </div>
             </div>
 
-            <div id="products">
-                <article>
+            <div class="d-flex flex-wrap justify-content-between" id="products">
+
+                <article class="w-25 d-flex flex-column">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/toa.jpg">
+                        <img class="img-fluid" src="../img/toa.jpg">
                         <div class="tags">
                             <div class="tag tag-sale">Sale</div>
                             <div class="tag tag-new">New</div>
@@ -161,12 +171,12 @@
                     </div>
                 </article>
                 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/bayonetta.jpg">
+                        <img class="img-fluid" src="../img/bayonetta.jpg">
                         <div class="tags">
                             <div class="tag tag-bundle">Bundle</div>
                         </div>
@@ -197,12 +207,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/tlou2.jpg">
+                        <img class="img-fluid" src="../img/tlou2.jpg">
                         <div class="tags">
                             <div class="tag tag-new">New</div>
                         </div>
@@ -225,12 +235,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/minecraft.jpg">
+                        <img class="img-fluid" src="../img/minecraft.jpg">
                         <div class="tags">
                             <div class="tag tag-sale">Sale</div>
                         </div>
@@ -264,12 +274,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/ds3.jpg">
+                        <img class="img-fluid" src="../img/ds3.jpg">
                         <div class="tags">
                         </div>
                     </div>
@@ -299,12 +309,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/hades.jpg">
+                        <img class="img-fluid" src="../img/hades.jpg">
                         <div class="tags">
                             <div class="tag tag-new">New</div>
                         </div>
@@ -331,12 +341,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/bioshock.jpg">
+                        <img class="img-fluid" src="../img/bioshock.jpg">
                         <div class="tags">
                         </div>
                     </div>
@@ -362,12 +372,12 @@
                     </div>
                 </article>
 
-                <article>
+                <article class="d-flex flex-column w-25">
                     <div class="info-cover">
                         <button class="like">    
                             <i class="far fa-heart"></i>
                         </button>
-                        <img src="../img/sunset.jpg">
+                        <img class="img-fluid" src="../img/sunset.jpg">
                         <div class="tags">
                             <div class="tag tag-sale">Sale</div>
                         </div>
@@ -472,7 +482,7 @@
 
     </main>
     <footer>
-        <div class="footer-content">
+        <div class="footer-content bg-dark">
 
             <section class="contact-info">
                 <img class="logo" src="../img/ies_manacor.petit2_400x400.jpg">
