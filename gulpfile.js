@@ -13,8 +13,9 @@ function watchSass(){
 
 function copy() {
   return gulp.src('./node_modules/bootstrap/dist/js/*')
-    .pipe(gulp.dest('./dist/js'));
+    .pipe(gulp.dest('./js'));
 };
 
 exports.compilaSass = buildStyles;
 exports.watchSass = watchSass;
+exports.copyJs = copy;
