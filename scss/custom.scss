@@ -1,8 +1,32 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:       $font-family-sans-serif !default;
+
 // Overrides here
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Additional custom code here
+
 
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 
@@ -10,4 +34,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+label input[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+label input[type=radio]:checked + i.bi-playstation {
+    color: blue;
+}
+
+label input[type=radio]:checked + i.bi-xbox {
+    color: green;
+}
+
+label input[type=radio]:checked + i.bi-nintendo-switch {
+    color: red;
+}
+
+label input[type=radio]:checked + i.bi-pc {
+    color: purple;
 }
