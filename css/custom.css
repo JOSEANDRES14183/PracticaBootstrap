@@ -1990,7 +1990,7 @@ progress {
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Outfit", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -13060,10 +13060,85 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.bg-sale {
+  color: white;
+  background-color: #e35d6a;
+}
+
+.bg-new {
+  color: white;
+  background-color: #6edff6;
+}
+
+.bg-red600 {
+  background-color: #b02a37;
+}
+
+.bg-playstation {
+  background-color: #0a58ca;
+}
+
+.bg-pc {
+  background-color: #520dc2;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+  }
+
+  #container2 .row {
+    filter: brightness(70%);
+  }
+}
+@media only screen and (max-width: 1400px) {
+  #mainGameImages {
+    filter: brightness(70%);
+  }
+}
+.overlay-1 {
+  z-index: 1;
+}
+
+.overlay-2 {
+  z-index: 2;
+}
+
+.overlay-3 {
+  z-index: 3;
+}
+
+.overlay-4 {
+  z-index: 4;
+}
+
+.overlay-5 {
+  z-index: 5;
+}
+
+.overlay-6 {
+  z-index: 6;
+}
+
+.overlay-7 {
+  z-index: 7;
+}
+
+.overlay-8 {
+  z-index: 8;
+}
+
+.overlay-9 {
+  z-index: 9;
+}
+
+.overlay-10 {
+  z-index: 10;
 }
 
 label input[type=radio] {
