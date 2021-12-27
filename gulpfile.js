@@ -28,7 +28,7 @@ function minifyCss(){
 }
 
 function minifyHtml(){
-  return gulp.src('html/*.html')
+  return gulp.src('/*.html')
       .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(gulp.dest('dist'));
 }
